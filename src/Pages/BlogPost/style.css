@@ -1,0 +1,20 @@
+.mainPara {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  width: 60%;
+  margin-top: 31px;
+  line-height: 38px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .BUTTON_BACK {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .padding {
+    padding: 0 15px 0px 15px;
+  }
+}

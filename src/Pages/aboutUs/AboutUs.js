@@ -9,8 +9,8 @@ import { Fade } from "react-reveal";
 const AboutUs = () => {
   return (
     <>
-      <div className="">
-        <div className="mainContainer d-flex row col-12 justify-content-center ">
+      <div className="mt-4">
+        <div className="mainContainer d-flex row  justify-content-center ">
           <div className="d-flex col-lg-6 col-md-6 col-12 justify-content-center align-items-center">
             <Fade left>
               <h3>
@@ -25,7 +25,7 @@ const AboutUs = () => {
             </Fade>
           </div>
         </div>
-        <div className="mainContainer d-flex col-12 justify-content-center">
+        <div className="mainContainer d-flex row justify-content-center">
           <div className="col-lg-6 col-md-6 col-12">
             <Fade left>
               <DisplayLottie animationData={aboutus2} />
